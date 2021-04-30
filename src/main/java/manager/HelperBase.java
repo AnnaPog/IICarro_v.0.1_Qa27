@@ -4,6 +4,7 @@ import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class HelperBase {
     WebDriver wd;
@@ -49,6 +50,10 @@ public class HelperBase {
         click(By.xpath("//button[text()='Y’alla!']"));
         pause(1000);
         click(By.xpath("//button[.='Ok']"));
+    }
+
+    public void select(By locator, String option){
+        new Select(wd.findElement(locator)).selectByVisibleText(option);
     }
 
 }

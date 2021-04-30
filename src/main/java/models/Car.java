@@ -18,7 +18,6 @@ public class Car {
     String distanceIncluded;
     String features;
     String about;
-    String photo;
 
     public Car withLocation(String location) {
         this.location = location;
@@ -105,11 +104,6 @@ public class Car {
         return this;
     }
 
-    public Car withPhoto(String photo) {
-        this.photo = photo;
-        return this;
-    }
-
     public String getLocation() {
         return location;
     }
@@ -178,7 +172,4 @@ public class Car {
         return about;
     }
 
-    public String getPhoto() {
-        return photo;
-    }
 }

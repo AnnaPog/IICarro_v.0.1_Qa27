@@ -4,6 +4,8 @@ import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CarHelper extends HelperBase{
     public CarHelper(WebDriver wd) {
@@ -14,15 +16,18 @@ public class CarHelper extends HelperBase{
         click(By.xpath("//a[.=' Let the car work ']"));
     }
 
-    public void fillNewCarForm(Car car) {
+    public void fillCarForm(Car car) {
         type(By.xpath("//input[@id='pickUpPlace']"), car.getLocation());
+        click(By.cssSelector("div.pac-item"));
+        pause(2000);
         type(By.xpath("//input[@id='make']"), car.getMake());
         type(By.xpath("//input[@id='model']"), car.getModel());
         type(By.id("year"), car.getYear());
         type(By.id("engine"), car.getEngine());
-        click(By.id("fuel"));
-        click(By.id("gear"));
-        click(By.id("wheelsDrive"));
+        select(By.id("fuel"), car.getFuel());
+        select(By.id("gear"), car.getGear());
+        select(By.id("wheelsDrive"), car.getWd());
+       // click(By.id("wheelsDrive"));
         type(By.cssSelector("#doors"), car.getDoors());
         type(By.cssSelector("#seats"), car.getSeats());
         type(By.cssSelector("#class"), car.getCarClass());
@@ -35,10 +40,11 @@ public class CarHelper extends HelperBase{
 
     }
 
-    public void addPhotos() {
-        WebElement el = wd.findElement(By.xpath("//label[.='Add photos of your car']"));
-        el.click();
-        el.sendKeys("model-3-saloon-TEM3.jpg");
+    public void attachPhotos(String link) {
+//        WebElement el = wd.findElement(By.xpath("//label[.='Add photos of your car']"));
+//        el.click();
+//        el.sendKeys("model-3-saloon-TEM3.jpg");
+        wd.findElement(By.id("photos")).sendKeys(link);
     }
 
     public void clickAddFeatureButton() {
@@ -47,5 +53,12 @@ public class CarHelper extends HelperBase{
 
     public void clickSubmitButton() {
         click(By.xpath("//button[.='Submit']"));
+    }
+
+    public boolean isCarAdded() {
+        new WebDriverWait(wd, 10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+        String text=wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+        return text.contains("added");
     }
 }
