@@ -31,7 +31,7 @@ public class CreateNewCarTest extends TestBase{
                 .withSeats("5")
                 .withCarClass("Luxury")
                 .withFuelConsumption("10")
-                .withCarRegistrationNumber("7667512")
+                .withCarRegistrationNumber("7667515")
                 .withPrice("400")
                 .withDistanceIncluded("450")
                 .withFeatures("Music")
