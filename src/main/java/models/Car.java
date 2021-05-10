@@ -18,6 +18,16 @@ public class Car {
     String distanceIncluded;
     String features;
     String about;
+    String dates;
+
+    public String getDates() {
+        return dates;
+    }
+
+    public Car withDates(String dates) {
+        this.dates = dates;
+        return this;
+    }
 
     public Car withLocation(String location) {
         this.location = location;

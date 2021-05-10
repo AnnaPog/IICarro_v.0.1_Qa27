@@ -2,6 +2,7 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -60,5 +61,52 @@ public class CarHelper extends HelperBase{
                 .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
         String text=wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
         return text.contains("added");
+    }
+
+    public void findYourCar(Car car) {
+        type(By.xpath("//input[@id='city']"), car.getLocation());
+        click(By.cssSelector("div.pac-item"));
+        typeDates(car.getDates());
+
+    }
+
+
+    public void typeDates(String dates) {
+        WebElement days = wd.findElement(By.id("dates"));
+        days.click();
+        String os = System.getProperty("os.name");
+
+        if(os.startsWith("Mac")){
+            days.sendKeys(Keys.chord(Keys.COMMAND, "a"));
+        }else {
+            days.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        }
+        days.sendKeys(dates);
+        days.sendKeys(Keys.ENTER);
+    }
+
+    public boolean findCar() {
+        return isElementPresent(By.xpath("//h1[.=' Find your car now! ']"));
+    }
+
+
+    public void clickYallaButton() {
+        click(By.xpath("//button[@type='submit']"));
+    }
+
+    public void serchDays(String data1, String data2) {
+        click(By.id("dates"));
+        click(By.xpath(String.format("//div[.=' %s ']", data1)));
+        click(By.xpath(String.format("//div[.=' %s ']", data2)));
+
+    }
+
+    public void findYourCar2(Car car) {
+        type(By.xpath("//input[@id='city']"), car.getLocation());
+        click(By.cssSelector("div.pac-item"));
+    }
+
+    public boolean canNotPickDay() {
+        return isElementPresent(By.xpath("//div[text()=\" You can't pick date before today \"]"));
     }
 }
