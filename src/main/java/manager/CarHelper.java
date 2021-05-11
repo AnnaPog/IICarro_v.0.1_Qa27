@@ -101,7 +101,7 @@ public class CarHelper extends HelperBase{
 
     }
 
-    public void findYourCar2(Car car) {
+    public void findYourCity(Car car) {
         type(By.xpath("//input[@id='city']"), car.getLocation());
         click(By.cssSelector("div.pac-item"));
     }

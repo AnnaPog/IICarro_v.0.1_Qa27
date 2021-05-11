@@ -1,5 +1,4 @@
 import models.Car;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,7 +7,6 @@ public class SearchTest extends TestBase{
     @Test
     public void typeSearchPeriod(){
         logger.info("Test type search period started");
-        logger.info("Test start");
        // app.car().fillCity("Haifa Israel");
         app.car().findYourCar(new Car()
         .withLocation("Haifa Israel")
@@ -26,7 +24,7 @@ public class SearchTest extends TestBase{
     public void selectSerchPeriod(){
         logger.info("Test select serch petiod started");
         //5/10/2021 - 5/12/2021
-        app.car().findYourCar2(new Car()
+        app.car().findYourCity(new Car()
                 .withLocation("Haifa Israel"));
         app.car().serchDays("17", "27");
         app.car().clickYallaButton();
