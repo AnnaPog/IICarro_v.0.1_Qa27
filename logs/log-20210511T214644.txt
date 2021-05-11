@@ -1,0 +1,2 @@
+21:47:05 21982 [Test worker] INFO  TestBase - Test select serch petiod started
+21:47:10 26668 [Test worker] INFO  TestBase - Test passed

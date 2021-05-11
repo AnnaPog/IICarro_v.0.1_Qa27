@@ -37,6 +37,7 @@ public class CreateNewCarTest extends TestBase{
                 .withFeatures("Music")
                 .withAbout("Good car")
         );
+        //logger.info("");
         app.car().clickAddFeatureButton();
 
         app.car().attachPhotos("/Users/annapogrebinskaya/Documents/GitHub/IICarro_v.0.1_Qa27/model-3-saloon-TEM3.jpg");
@@ -45,6 +46,7 @@ public class CreateNewCarTest extends TestBase{
         app.car().pause(2000);
 
         Assert.assertTrue(app.car().isCarAdded());
+       // logger.info("test passed");
 
 
     }

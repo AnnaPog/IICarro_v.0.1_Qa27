@@ -1,0 +1,2 @@
+21:48:01 16763 [Test worker] INFO  TestBase - Test negativ type period in path with invalid dates started
+21:48:04 19686 [Test worker] INFO  TestBase - Test passed

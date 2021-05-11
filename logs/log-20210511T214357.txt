@@ -1,0 +1,3 @@
+45254 [Test worker] INFO  TestBase - Test type search period started
+45275 [Test worker] INFO  TestBase - Test start
+53033 [Test worker] INFO  TestBase - Test passed
