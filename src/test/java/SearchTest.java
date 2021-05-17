@@ -21,6 +21,13 @@ public class SearchTest extends TestBase{
     }
 
     @Test
+    public void typeSearchPeriod1(){
+        app.search().fillSearchFormByType("Haifa", "5/15/2021", "5/20/2021");
+        app.search().clickYallaBtn();
+        Assert.assertTrue(app.search().isListOfCarAppeared());
+    }
+
+    @Test
     public void selectSerchPeriod(){
         logger.info("Test select serch petiod started");
         //5/10/2021 - 5/12/2021
@@ -33,6 +40,14 @@ public class SearchTest extends TestBase{
     }
 
     @Test
+    public void selectSerchPeriod2(){
+        app.search().fillSearchFormBySelectDate("Haifa", "5/17/2021", "5/25/2021");
+        app.search().clickYallaBtn();
+        Assert.assertTrue(app.search().isListOfCarAppeared());
+
+    }
+
+    @Test
     public void negatTypePeriodInPath(){
         logger.info("Test negativ type period in path with invalid dates started");
         app.car().findYourCar(new Car()
@@ -42,5 +57,31 @@ public class SearchTest extends TestBase{
         logger.info("Test passed");
         //4/10/2021 - 4/12/2021
 
+    }
+
+    @Test
+    public void negatTypePeriodInPath2(){
+        app.search().fillSearchByTypeNeg("Haifa","4/10/2021","4/17/2021");
+        Assert.assertTrue(app.search().buttonYallaInactive());
+        app.search().pause(1500);
+    }
+
+    @Test
+    public void selectPeriodNotCurrentMonth(){
+        // 6/1/2021 7/2/2021
+        app.search().fillSearchfrom("Haifa", "8/1/2021", "8/12/2021");
+        app.search().clickYallaBtn();
+        Assert.assertTrue(app.search().isListOfCarAppeared());
+
+
+    }
+
+
+    @Test
+    public void selectPeriodNotCerrentMonthsHW(){
+        // 7/10/2021-8/10/2021
+        app.search().fillNewSerchForm("Haifa", "7/10/2021", "8/10/2021");
+        app.search().clickYallaBtn();
+        Assert.assertTrue(app.search().isListOfCarAppeared());
     }
 }

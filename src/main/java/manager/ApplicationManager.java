@@ -10,6 +10,7 @@ public class ApplicationManager {
     WebDriver wd;
     UserHelper user;
     CarHelper car;
+    SearchHelper search;
     String browser;
 
     public ApplicationManager(String browser) {
@@ -24,6 +25,10 @@ public class ApplicationManager {
         return car;
     }
 
+    public SearchHelper search() {
+        return search;
+    }
+
     public void init(){
         if(browser.equals(BrowserType.CHROME)){
             wd = new ChromeDriver();
@@ -35,6 +40,7 @@ public class ApplicationManager {
         wd.navigate().to("https://ilcarro.xyz/search");
         user = new UserHelper(wd);
         car = new CarHelper(wd);
+        search = new SearchHelper(wd);
 
     }
 
