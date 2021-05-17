@@ -107,25 +107,46 @@ public class SearchHelper extends HelperBase {
         String[] dateTo = to.split("/");
         click(By.id("dates"));
 
-        checkMonth(dateFrom[0]);
+        //checkMonth(dateFrom[0]);
+        int diffFrome = 0;
+        if(LocalDate.now().getMonthValue() != Integer.parseInt(dateFrom[0])){
+            diffFrome = Integer.parseInt(dateFrom[0]) - LocalDate.now().getMonthValue();
+            System.out.println(diffFrome);
+        }
+
+        for (int i = 0; i<diffFrome; i++){
+            click(By.xpath("//button[@aria-label='Next month']"));
+        }
         String locator = String.format("//div[text()=' %s ']", dateFrom[1]);
         click(By.xpath(locator));
 
-        checkMonth(dateTo[0]);
+        //checkMonth(dateTo[0]);
+        int diffTo = 0;
+
+        if(LocalDate.now().getMonthValue() != Integer.parseInt(dateFrom[0])){
+            diffTo = Integer.parseInt(dateTo[0]) - LocalDate.now().getMonthValue();
+            System.out.println(diffTo);
+        }
+
+        int diffMonths = diffTo - diffFrome;
+        System.out.println(diffMonths);
+        for (int i = 0; i<diffMonths; i++){
+            click(By.xpath("//button[@aria-label='Next month']"));
+        }
         String locator2 = String.format("//div[text()=' %s ']", dateTo[1]);
         click(By.xpath(locator2));
     }
 
-    private void checkMonth(String month) {
-        int diffMonth = 0;
-        if(LocalDate.now().getMonthValue() != Integer.parseInt(month)){
-            diffMonth = Integer.parseInt(month) - LocalDate.now().getMonthValue();
-        }
-
-        for (int i = 0; i<diffMonth; i++){
-            click(By.xpath("//button[@aria-label='Next month']"));
-        }
-
-    }
+//    private void checkMonth(String month) {
+//        int diffMonth = 0;
+//        if(LocalDate.now().getMonthValue() != Integer.parseInt(month)){
+//            diffMonth = Integer.parseInt(month) - LocalDate.now().getMonthValue();
+//        }
+//
+//        for (int i = 0; i<diffMonth; i++){
+//            click(By.xpath("//button[@aria-label='Next month']"));
+//        }
+//
+//    }
 
 }

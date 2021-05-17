@@ -81,6 +81,7 @@ public class SearchTest extends TestBase{
     public void selectPeriodNotCerrentMonthsHW(){
         // 7/10/2021-8/10/2021
         app.search().fillNewSerchForm("Haifa", "7/10/2021", "8/10/2021");
+        app.search().pause(5000);
         app.search().clickYallaBtn();
         Assert.assertTrue(app.search().isListOfCarAppeared());
     }
