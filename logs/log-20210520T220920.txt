@@ -1,0 +1,16 @@
+22:09:45 25836 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+22:10:15 56121 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+22:10:15 56178 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+22:10:17 58067 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+22:10:17 58361 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+22:10:18 59099 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+22:10:18 59110 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+22:10:21 61810 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+22:10:21 61824 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+22:10:21 61967 [Test worker] INFO  manager.MyListener - We have a throwable Element <button type="submit"> is not clickable at point (207,409) because another element <span class="mat-button-wrapper"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 4644, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f9af473-cf62-0149-925e-6f6895c3801a
+22:10:22 62515 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1415.png

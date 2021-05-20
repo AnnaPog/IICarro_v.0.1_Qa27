@@ -1,0 +1,34 @@
+18:03:47 11962 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+18:03:50 15577 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+18:04:00 25619 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+18:04:00 25622 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+18:04:00 25637 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+18:04:01 25980 [Test worker] INFO  manager.MyListener - Click by Log in
+18:04:01 25987 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+18:04:01 26011 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+18:04:02 27535 [Test worker] INFO  manager.MyListener - Click by 
+18:04:02 27633 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+18:04:02 27646 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+18:04:03 28600 [Test worker] INFO  manager.MyListener - Click by 
+18:04:03 28663 [Test worker] INFO  TestBase - loggin with: marsh@gmail.com 
+18:04:03 28664 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+18:04:03 28678 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+18:04:04 28938 [Test worker] INFO  manager.MyListener - Click by Y’alla!
+18:04:06 30943 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+18:04:06 30956 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Ok']
+18:04:06 31252 [Test worker] INFO  manager.MyListener - We have a throwable The element reference of <button class="positive-button ng-star-inserted" type="button"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 2390, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 16bbb8b7-37e5-de4b-9480-a3f146bd6269
+18:04:07 32344 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+18:04:07 32354 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+18:04:07 32640 [Test worker] INFO  manager.MyListener - We have a throwable The element reference of <a class="navigation-link ng-star-inserted" href="/logout?url=%2Flogout%3Furl%3D%252Fsearch"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 2390, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 16bbb8b7-37e5-de4b-9480-a3f146bd6269

@@ -19,7 +19,8 @@ public class SearchHelper extends HelperBase {
 
     public void fillSearchFormByType(String city, String dateFrom, String dataTo) {
         fillInputCity(city);
-        typeInputPeriod(dateFrom, dataTo);
+       // typeInputPeriod(dateFrom, dataTo);
+        typeWithCntrV(dateFrom, dataTo);
     }
 
     private void typeInputPeriod(String dateFrom, String dataTo) {
@@ -49,11 +50,14 @@ public class SearchHelper extends HelperBase {
 
     private void selectPeriodCurrentMounth(String dateFrom, String dateTo) {
         wd.findElement(By.id("dates")).click();
-        String[] from = dateFrom.split("/");
-        String[] to = dateTo.split("/");
-        String locator = String.format("//div[text()=' %s ']", from[1]);
+
+        String[]from =dateFrom.split("/");
+        String[]to = dateTo.split("/");
+        //String locator ="//div[text()='"+from[1]+"']";
+
+        String locator =String.format("//div[text()=' %s ']",from[1]);
         click(By.xpath(locator));
-        String locator2 = String.format("//div[text()=' %s ']", to[1]);
+        String locator2 =String.format("//div[text()=' %s ']",to[1]);
         click(By.xpath(locator2));
     }
 
@@ -92,6 +96,14 @@ public class SearchHelper extends HelperBase {
         }
         String locator = String.format("//div[text()=' %s ']", dateFrom[1]);
         click(By.xpath(locator));
+
+        int diff = 0;
+        if(Integer.parseInt(dateTo[0])!=Integer.parseInt(dateFrom[0])){
+            diff = Integer.parseInt(dateTo[0]) - Integer.parseInt(dateFrom[0]);
+            for (int i = 0; i <diff ; i++) {
+                click(By.xpath("//button[@aria-label='Next month']"));
+            }
+        }
 
         String locator2 = String.format("//div[text()=' %s ']", dateTo[1]);
         click(By.xpath(locator2));
@@ -135,6 +147,19 @@ public class SearchHelper extends HelperBase {
         }
         String locator2 = String.format("//div[text()=' %s ']", dateTo[1]);
         click(By.xpath(locator2));
+    }
+
+    public void backToHomePage() {
+        //click(By.xpath("//div[@class='cdk-overlay-container']"));
+        click(By.xpath("//a[@href='/search']"));
+        clear(By.id("city"));
+
+    }
+
+    private void clear(By locator) {
+        WebElement el = wd.findElement(locator);
+        el.click();
+        el.clear();
     }
 
 //    private void checkMonth(String month) {

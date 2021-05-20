@@ -1,0 +1,27 @@
+21:30:06 12756 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:30:08 14993 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+21:30:08 15058 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+21:30:10 17510 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:30:11 18010 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:30:15 21565 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+21:30:15 21577 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+21:30:15 22109 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+21:30:15 22123 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+21:30:15 22149 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+21:30:15 22158 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+21:30:15 22312 [Test worker] INFO  manager.MyListener - We have a throwable Element <button type="submit"> is not clickable at point (207,409) because another element <span class="mat-button-wrapper"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 4109, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92df82e1-3f72-014a-b0ab-9de25a9ff757
+21:30:16 22815 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--221.png
+21:30:16 22833 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@id='0']
+21:30:16 22845 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@id='0']
+21:30:16 22868 [Test worker] INFO  manager.MyListener - We have a throwable Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (659,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 4109, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92df82e1-3f72-014a-b0ab-9de25a9ff757
+21:30:16 23348 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--221.png

@@ -1,0 +1,2 @@
+19:08:22 708  [Test worker] INFO  manager.MyListenerTestNG - Listener TestNG start nulltestListener
+19:08:34 12558 [Test worker] INFO  manager.MyListenerTestNG - Listener TestNG finishGradle test

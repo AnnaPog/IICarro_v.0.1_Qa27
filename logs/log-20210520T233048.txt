@@ -1,0 +1,44 @@
+23:31:01 12838 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:31:04 16218 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:31:04 16306 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:31:05 16917 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:31:05 17322 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:31:07 19346 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:31:07 19360 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:31:08 20053 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:31:08 20070 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:31:10 21690 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='cdk-overlay-container']
+23:31:10 21713 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='cdk-overlay-container']
+23:31:10 21982 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@href='/search']
+23:31:10 21996 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@href='/search']
+23:31:10 22251 [Test worker] INFO  manager.MyListener - Start search element -->By.id: city
+23:31:10 22264 [Test worker] INFO  manager.MyListener - Found --> By.id: city
+23:31:11 22525 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:31:11 22537 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:31:11 22839 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:31:11 23060 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:31:12 23786 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:31:12 23798 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:31:12 24210 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+23:31:12 24223 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+23:31:13 24524 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+23:31:13 24535 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+23:31:13 24798 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 10 ']
+23:31:13 24812 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 10 ']
+23:31:14 26272 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+23:31:14 26285 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+23:31:15 26582 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 10 ']
+23:31:15 26597 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 10 ']
+23:31:21 33236 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:31:21 33247 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:31:22 33728 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+23:31:22 33771 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+23:31:22 33774 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='cdk-overlay-container']
+23:31:22 33787 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='cdk-overlay-container']
+23:31:22 33873 [Test worker] INFO  manager.MyListener - We have a throwable Element <div class="cdk-overlay-container"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 5737, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 44b9d691-24cf-3e42-b5ad-137d343a7e66
+23:31:22 34151 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--155.png

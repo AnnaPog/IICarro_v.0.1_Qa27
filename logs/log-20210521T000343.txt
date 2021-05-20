@@ -1,0 +1,20 @@
+00:04:07 24430 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+00:04:21 38488 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+00:04:21 38568 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+00:04:22 39286 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+00:04:22 39792 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+00:04:24 41348 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+00:04:24 41360 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+00:04:25 42736 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 17 ']
+00:04:25 42747 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 17 ']
+00:04:25 42980 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 25 ']
+00:04:25 42996 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 25 ']
+00:04:27 45277 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+00:04:28 45292 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+00:04:28 45573 [Test worker] INFO  manager.MyListener - We have a throwable Element <button type="submit"> is not clickable at point (207,409) because another element <span class="mat-button-wrapper"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6671, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 859e626b-f6dc-3f48-9232-8eb981476681
+00:04:29 46657 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1768.png

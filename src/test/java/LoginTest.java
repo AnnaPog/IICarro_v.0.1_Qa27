@@ -16,14 +16,15 @@ public class LoginTest extends TestBase{
     @Test
     public void loginTest(){
         app.user().openLoginForm();
-        app.user().fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword("Marsh1234$"));
-       // logger.info("loggin with: "+"marsh@gmail.com "+ "Marsh1234$");
+        app.user().fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword(""));
+        logger.info("loggin with: "+"marsh@gmail.com "+ "Marsh1234$");
+        //Marsh1234$
         app.user().clickLoginButton();
         app.user().pause(2000);
         app.user().successLogin();
 
         Assert.assertTrue(app.user().isLoggend());
-       // logger.info("Test passed");
+        logger.info("Test passed");
     }
 
     @AfterMethod

@@ -1,0 +1,20 @@
+21:27:22 20477 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:27:52 50339 [Test worker] INFO  TestBase - Test negativ type period in path with invalid dates started
+21:27:52 50347 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+21:27:52 50407 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+21:27:55 52874 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:27:58 56071 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:28:00 58096 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+21:28:00 58109 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+21:28:01 58880 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=" You can't pick date before today "]
+21:28:01 58911 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=" You can't pick date before today "]
+21:28:01 58919 [Test worker] INFO  TestBase - Test passed
+21:28:01 58925 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@id='0']
+21:28:01 58944 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@id='0']
+21:28:03 61201 [Test worker] INFO  manager.MyListener - We have a throwable Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (659,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 4071, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 319a64ae-7e78-4d4e-8a2d-004c664832b6
+21:28:04 61676 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--353.png

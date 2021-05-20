@@ -1,0 +1,27 @@
+21:31:57 8682 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:32:00 12246 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+21:32:00 12302 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+21:32:01 12702 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:32:01 13093 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:32:02 13823 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+21:32:02 13843 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+21:32:03 14416 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+21:32:03 14432 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+21:32:03 14705 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+21:32:03 14723 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+21:32:03 15072 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+21:32:03 15093 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+21:32:04 15391 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 1 ']
+21:32:04 15411 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 1 ']
+21:32:04 15685 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+21:32:04 15697 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+21:32:04 15961 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+21:32:04 15976 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+21:32:04 16256 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 12 ']
+21:32:04 16275 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 12 ']
+21:32:05 16575 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+21:32:05 16594 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+21:32:05 16941 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+21:32:05 16974 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+21:32:05 16985 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@id='0']
+21:32:05 17000 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@id='0']

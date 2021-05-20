@@ -1,0 +1,18 @@
+23:03:04 28501 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:03:09 32820 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:03:09 32915 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:03:09 33488 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:03:10 33854 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:03:11 34578 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:03:11 34592 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:03:11 35263 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:03:11 35283 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:03:13 36898 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@id='0']
+23:03:13 36914 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@id='0']
+23:03:14 37610 [Test worker] INFO  manager.MyListener - We have a throwable Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (659,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 5116, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8e6bd5f-ee7f-8c4c-b360-765722ebe2dd
+23:03:14 38535 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1842.png

@@ -2,6 +2,7 @@ package manager;
 
 import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -54,6 +55,20 @@ public class HelperBase {
 
     public void select(By locator, String option){
         new Select(wd.findElement(locator)).selectByVisibleText(option);
+    }
+
+    public void typeWithCntrV(String from, String to){
+        WebElement element = wd.findElement(By.id("dates"));
+        element.click();
+        String os = System.getProperty("os.name");
+        System.out.println(os);
+        if (os.startsWith("Mac")){
+            element.sendKeys(Keys.chord (Keys.COMMAND, "a"));
+        }else{
+            element.sendKeys(Keys.chord (Keys.CONTROL, "a"));
+        }
+        element.sendKeys(from + " - "+to);
+        element.sendKeys(Keys.ENTER);
     }
 
 }

@@ -1,0 +1,14 @@
+21:10:27 31105 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:10:37 41609 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+21:10:37 41705 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+21:10:40 44360 [Test worker] INFO  manager.MyListener - Click by 
+21:10:40 44499 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:10:41 44964 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:10:42 45828 [Test worker] INFO  manager.MyListener - We have a throwable The element reference of <div class="pac-item"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 3892, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 790688a8-cf1b-aa45-b531-f0ad4b909c98
+21:10:48 52329 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1389.png

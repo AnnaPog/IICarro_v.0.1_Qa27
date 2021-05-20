@@ -1,0 +1,20 @@
+23:20:04 30460 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:20:08 34883 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:20:08 34979 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:20:09 35633 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:20:10 36162 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:20:10 36926 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:20:10 36961 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:20:14 40072 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:20:14 40357 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:20:14 40642 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+23:20:14 40682 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+23:20:14 40707 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='cdk-overlay-container']
+23:20:14 40730 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='cdk-overlay-container']
+23:20:14 40849 [Test worker] INFO  manager.MyListener - We have a throwable Element <div class="cdk-overlay-container"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 5638, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9b22b40a-0112-ce46-a404-f3ceec532c41
+23:20:15 41156 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--822.png

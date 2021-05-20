@@ -1,0 +1,17 @@
+21:42:39 14621 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:42:42 17008 [Test worker] INFO  TestBase - Test type search period started
+21:42:42 17015 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+21:42:42 17097 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+21:42:42 17576 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:42:43 17974 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:42:44 18699 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+21:42:44 18712 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+21:42:46 20836 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+21:42:46 20943 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+21:42:46 21003 [Test worker] INFO  manager.MyListener - We have a throwable Element <button type="submit"> is not clickable at point (207,409) because another element <span class="mat-button-wrapper"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 4322, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: afcf0335-75fe-6343-9402-71b87f37934a
+21:42:46 21564 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--3070.png

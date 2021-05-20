@@ -1,0 +1,13 @@
+23:12:22 19190 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:12:28 24776 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:12:28 24843 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:12:29 25465 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:12:29 25957 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:12:31 27891 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:12:31 27904 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:12:35 31922 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:12:43 39796 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:12:44 41091 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+23:12:45 41267 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+23:12:45 41347 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Search ']
+23:12:45 41551 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Search ']

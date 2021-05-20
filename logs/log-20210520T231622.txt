@@ -1,0 +1,42 @@
+23:16:41 19768 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:16:46 24965 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:16:46 25083 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:16:47 25722 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:16:47 26101 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:16:48 26832 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:16:48 26847 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:16:49 27561 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:16:49 27579 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:16:50 29208 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='cdk-overlay-container']
+23:16:50 29228 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='cdk-overlay-container']
+23:16:50 29494 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Search ']
+23:16:50 29508 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Search ']
+23:16:51 30422 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+23:16:51 30435 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+23:16:52 30745 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+23:16:52 30997 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+23:16:53 31721 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+23:16:53 31735 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+23:16:53 32123 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+23:16:53 32136 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+23:16:53 32431 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+23:16:53 32445 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+23:16:54 32709 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 10 ']
+23:16:54 32723 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 10 ']
+23:16:54 33007 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+23:16:54 33020 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+23:16:54 33304 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 10 ']
+23:16:54 33319 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 10 ']
+23:17:01 39633 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+23:17:01 39647 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+23:17:01 40113 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+23:17:01 40155 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+23:17:01 40158 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='cdk-overlay-container']
+23:17:01 40169 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='cdk-overlay-container']
+23:17:01 40253 [Test worker] INFO  manager.MyListener - We have a throwable Element <div class="cdk-overlay-container"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Air-Anna.lan', ip: 'fe80:0:0:0:4be:fb66:5f10:79c0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 5497, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ad1df23-5396-a746-bb87-c3159cebb3fa
+23:17:02 40566 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1015.png

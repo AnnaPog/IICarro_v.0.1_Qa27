@@ -1,0 +1,25 @@
+16:50:56 30995 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+16:51:56 90897 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+16:52:07 101666 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+16:52:07 101685 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+16:52:11 105199 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+16:52:11 105817 [Test worker] INFO  manager.MyListener - Click by [[FirefoxDriver: firefox on MAC (28796efa-f5f7-c44a-8874-06c7ae95ba8b)] -> xpath: //a[.=' Log in ']]
+16:52:11 105835 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+16:52:11 105852 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+16:52:12 106191 [Test worker] INFO  manager.MyListener - Click by [[FirefoxDriver: firefox on MAC (28796efa-f5f7-c44a-8874-06c7ae95ba8b)] -> xpath: //input[@id='email']]
+16:52:12 106350 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+16:52:12 106368 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+16:52:12 106604 [Test worker] INFO  manager.MyListener - Click by [[FirefoxDriver: firefox on MAC (28796efa-f5f7-c44a-8874-06c7ae95ba8b)] -> id: password]
+16:52:12 106719 [Test worker] INFO  TestBase - loggin with: marsh@gmail.com Marsh1234$
+16:52:12 106719 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+16:52:12 106738 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+16:52:12 107070 [Test worker] INFO  manager.MyListener - Click by [[FirefoxDriver: firefox on MAC (28796efa-f5f7-c44a-8874-06c7ae95ba8b)] -> xpath: //button[text()='Y’alla!']]
+16:52:14 109075 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+16:52:14 109087 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Ok']
+16:52:15 109324 [Test worker] INFO  manager.MyListener - Click by [[FirefoxDriver: firefox on MAC (28796efa-f5f7-c44a-8874-06c7ae95ba8b)] -> xpath: //button[.='Ok']]
+16:52:15 109325 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+16:52:15 109354 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+16:52:15 109588 [Test worker] INFO  TestBase - Test passed
+16:52:15 109605 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+16:52:15 109618 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+16:52:15 109913 [Test worker] INFO  manager.MyListener - Click by [[FirefoxDriver: firefox on MAC (28796efa-f5f7-c44a-8874-06c7ae95ba8b)] -> xpath: //a[.=' Logout ']]

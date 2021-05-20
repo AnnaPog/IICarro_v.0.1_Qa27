@@ -1,0 +1,11 @@
+21:36:56 13319 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:36:58 15576 [Test worker] INFO  TestBase - Test negativ type period in path with invalid dates started
+21:36:58 15580 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+21:36:58 15612 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+21:37:00 17200 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:37:00 17578 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:37:01 18300 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+21:37:01 18312 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+21:37:02 19829 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=" You can't pick date before today "]
+21:37:02 19943 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=" You can't pick date before today "]
+21:37:02 19947 [Test worker] INFO  TestBase - Test passed
