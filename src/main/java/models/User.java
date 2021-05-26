@@ -36,6 +36,7 @@ public class User {
         return lastName;
     }
 
+
     public String getEmail() {
         return email;
     }
@@ -43,4 +44,13 @@ public class User {
     public String getPassword() {
         return password;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
+

@@ -59,9 +59,9 @@ public class MyListener extends AbstractWebDriverEventListener {
         String path = "src/test/screenshots/screensot-" + i + ".png";
 
         logger.info("Screen with throwable "+path);
-        File screnshot = new File(path);
+        File screenshot = new File(path);
         try {
-            Files.copy(tmp, screnshot);
+            Files.copy(tmp, screenshot);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,3 +1,4 @@
+import manager.DataProviders;
 import models.Car;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -46,14 +47,37 @@ public class CreateNewCarTest extends TestBase{
         app.car().pause(2000);
 
         Assert.assertTrue(app.car().isCarAdded());
-       // logger.info("test passed");
+
+        app.car().refresh();
+
+
+    }
+
+    @Test(dataProvider = "dataCarFile", dataProviderClass = DataProviders.class)
+    public void  createNewCarDataProvider(Car car){
+        app.car().pause(2000);
+        logger.info("Create new card with Registered number: " + car.getCarRegistrationNumber());
+        app.car().openCarCreationForm();
+        app.car().fillCarForm(car);
+
+        //logger.info("");
+        app.car().clickAddFeatureButton();
+
+         app.car().attachPhotos("/Users/annapogrebinskaya/Documents/GitHub/IICarro_v.0.1_Qa27/model-3-saloon-TEM3.jpg");
+        app.car().pause(2000);
+        app.car().clickSubmitButton();
+        app.car().pause(2000);
+
+        Assert.assertTrue(app.car().isCarAdded());
+        // logger.info("test passed");
+
 
 
     }
 
     @AfterMethod
     public void postConditions(){
-       // app.user().logout();
+       app.car().searchAnotherCar();
 
     }
 }

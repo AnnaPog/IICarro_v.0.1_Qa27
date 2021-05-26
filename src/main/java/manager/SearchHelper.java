@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.LocalDate;
 
@@ -68,6 +70,7 @@ public class SearchHelper extends HelperBase {
 
     private void typeInputPeriodNeg(String dateFrom, String dateTo) {
         type(By.id("dates"), dateFrom + " - " + dateTo);
+        wd.findElement(By.cssSelector(".cdk-overlay-container")).click();
 
     }
 
@@ -150,9 +153,12 @@ public class SearchHelper extends HelperBase {
     }
 
     public void backToHomePage() {
-        //click(By.xpath("//div[@class='cdk-overlay-container']"));
-        click(By.xpath("//a[@href='/search']"));
-        clear(By.id("city"));
+
+//        click(By.xpath("//a[@href='/search']"));
+//        clear(By.id("city"));
+        wd.findElement(By.xpath("//a[@href='/']")).click();
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//div[@class='search-container']"))));
 
     }
 

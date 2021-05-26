@@ -1,0 +1,47 @@
+19:12:02 38804 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+19:12:07 44496 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+19:12:20 56872 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+19:12:20 56875 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+19:12:20 56918 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+19:12:22 59498 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+19:12:22 59520 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+19:12:23 59975 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+19:12:23 59989 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+19:12:24 61687 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+19:12:24 61696 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+19:12:27 64423 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+19:12:38 75458 [Test worker] INFO  manager.MyListener - We have a throwable Unable to locate element: //button[.='Ok']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:dcb1:cd40:e9b0:3d19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 1209, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 149d7dfc-d28e-ac46-8429-9bc4bffe0cee
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+19:12:39 76748 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1277.png
+19:12:40 76817 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+19:12:50 86849 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+19:12:50 86854 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+19:12:50 86870 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+19:12:50 87130 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+19:12:50 87144 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+19:12:50 87476 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+19:12:50 87496 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+19:12:51 87860 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+19:12:51 87871 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+19:12:55 91850 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+19:13:02 99004 [Test worker] INFO  manager.MyListener - We have a throwable Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:dcb1:cd40:e9b0:3d19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 1209, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 149d7dfc-d28e-ac46-8429-9bc4bffe0cee
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+19:13:02 99035 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+19:13:02 99068 [Test worker] INFO  manager.MyListener - We have a throwable Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:dcb1:cd40:e9b0:3d19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 1209, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 149d7dfc-d28e-ac46-8429-9bc4bffe0cee
+*** Element info: {Using=xpath, value=//a[.=' Logout ']}

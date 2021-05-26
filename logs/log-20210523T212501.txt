@@ -1,0 +1,135 @@
+21:25:21 20844 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+21:25:24 23593 [Test worker] INFO  TestBase - Start method -->createNewCarDataProvider
+21:25:24 23594 [Test worker] INFO  TestBase - With param--->[models.Car@17899ef]
+21:25:24 23601 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+21:25:24 23693 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+21:25:24 23712 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+21:25:24 23754 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+21:25:24 24213 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+21:25:24 24227 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+21:25:25 24850 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+21:25:25 24863 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+21:25:25 25160 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+21:25:25 25174 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+21:25:27 26455 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+21:25:27 26717 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Ok']
+21:25:29 28977 [Test worker] INFO  TestBase - Create new card with Registered number: 7667522
+21:25:29 28978 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Let the car work ']
+21:25:29 28992 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Let the car work ']
+21:25:29 29397 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='pickUpPlace']
+21:25:29 29410 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='pickUpPlace']
+21:25:30 29725 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:25:30 29965 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:25:33 32696 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='make']
+21:25:33 32710 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='make']
+21:25:33 32988 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='model']
+21:25:33 33000 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='model']
+21:25:33 33276 [Test worker] INFO  manager.MyListener - Start search element -->By.id: year
+21:25:33 33290 [Test worker] INFO  manager.MyListener - Found --> By.id: year
+21:25:34 33576 [Test worker] INFO  manager.MyListener - Start search element -->By.id: engine
+21:25:34 33585 [Test worker] INFO  manager.MyListener - Found --> By.id: engine
+21:25:34 33856 [Test worker] INFO  manager.MyListener - Start search element -->By.id: fuel
+21:25:34 33871 [Test worker] INFO  manager.MyListener - Found --> By.id: fuel
+21:25:36 35731 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "Petrol"]
+21:25:36 35748 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "Petrol"]
+21:25:37 36719 [Test worker] INFO  manager.MyListener - Start search element -->By.id: gear
+21:25:37 36734 [Test worker] INFO  manager.MyListener - Found --> By.id: gear
+21:25:37 36761 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "AT"]
+21:25:37 36772 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "AT"]
+21:25:37 37004 [Test worker] INFO  manager.MyListener - Start search element -->By.id: wheelsDrive
+21:25:37 37014 [Test worker] INFO  manager.MyListener - Found --> By.id: wheelsDrive
+21:25:38 38126 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "RWD"]
+21:25:38 38145 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "RWD"]
+21:25:40 39564 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #doors
+21:25:40 39583 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #doors
+21:25:40 39850 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #seats
+21:25:40 39872 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #seats
+21:25:40 40173 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #class
+21:25:40 40190 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #class
+21:25:41 40460 [Test worker] INFO  manager.MyListener - Start search element -->By.id: fuelConsumption
+21:25:41 40470 [Test worker] INFO  manager.MyListener - Found --> By.id: fuelConsumption
+21:25:41 40728 [Test worker] INFO  manager.MyListener - Start search element -->By.id: serialNumber
+21:25:41 40737 [Test worker] INFO  manager.MyListener - Found --> By.id: serialNumber
+21:25:41 41038 [Test worker] INFO  manager.MyListener - Start search element -->By.id: price
+21:25:41 41053 [Test worker] INFO  manager.MyListener - Found --> By.id: price
+21:25:41 41325 [Test worker] INFO  manager.MyListener - Start search element -->By.id: distance
+21:25:41 41337 [Test worker] INFO  manager.MyListener - Found --> By.id: distance
+21:25:42 41793 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@placeholder='Type feature']
+21:25:42 41807 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@placeholder='Type feature']
+21:25:42 42065 [Test worker] INFO  manager.MyListener - Start search element -->By.id: about
+21:25:42 42075 [Test worker] INFO  manager.MyListener - Found --> By.id: about
+21:25:42 42406 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Add feature']
+21:25:42 42425 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Add feature']
+21:25:43 42651 [Test worker] INFO  manager.MyListener - Start search element -->By.id: photos
+21:25:43 42663 [Test worker] INFO  manager.MyListener - Found --> By.id: photos
+21:25:46 45659 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Submit']
+21:25:46 45674 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Submit']
+21:25:48 48057 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.dialog-container
+21:25:48 48071 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.dialog-container
+21:25:48 48155 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.dialog-container h1
+21:25:48 48166 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.dialog-container h1
+21:25:48 48220 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Search cars']
+21:25:48 48233 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Search cars']
+21:25:49 48469 [Test worker] INFO  TestBase - End of method -->createNewCarDataProvider
+21:25:49 48472 [Test worker] INFO  TestBase - Start method -->createNewCarDataProvider
+21:25:49 48473 [Test worker] INFO  TestBase - With param--->[models.Car@43f2e083]
+21:25:49 48474 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+21:25:59 58493 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+21:26:01 60498 [Test worker] INFO  TestBase - Create new card with Registered number: 7667523
+21:26:01 60498 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Let the car work ']
+21:26:01 60510 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Let the car work ']
+21:26:01 60792 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='pickUpPlace']
+21:26:01 60803 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='pickUpPlace']
+21:26:01 61097 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+21:26:01 61324 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+21:26:04 64048 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='make']
+21:26:04 64058 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='make']
+21:26:04 64315 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='model']
+21:26:04 64323 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='model']
+21:26:05 64590 [Test worker] INFO  manager.MyListener - Start search element -->By.id: year
+21:26:05 64601 [Test worker] INFO  manager.MyListener - Found --> By.id: year
+21:26:06 65691 [Test worker] INFO  manager.MyListener - Start search element -->By.id: engine
+21:26:06 65707 [Test worker] INFO  manager.MyListener - Found --> By.id: engine
+21:26:06 65977 [Test worker] INFO  manager.MyListener - Start search element -->By.id: fuel
+21:26:06 65989 [Test worker] INFO  manager.MyListener - Found --> By.id: fuel
+21:26:06 66009 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "Petrol"]
+21:26:06 66020 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "Petrol"]
+21:26:06 66280 [Test worker] INFO  manager.MyListener - Start search element -->By.id: gear
+21:26:06 66291 [Test worker] INFO  manager.MyListener - Found --> By.id: gear
+21:26:06 66313 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "AT"]
+21:26:06 66323 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "AT"]
+21:26:07 66561 [Test worker] INFO  manager.MyListener - Start search element -->By.id: wheelsDrive
+21:26:07 66572 [Test worker] INFO  manager.MyListener - Found --> By.id: wheelsDrive
+21:26:07 66596 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "RWD"]
+21:26:07 66606 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "RWD"]
+21:26:07 66975 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #doors
+21:26:07 66983 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #doors
+21:26:07 67228 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #seats
+21:26:07 67239 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #seats
+21:26:08 67498 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #class
+21:26:08 67507 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #class
+21:26:08 67775 [Test worker] INFO  manager.MyListener - Start search element -->By.id: fuelConsumption
+21:26:08 67785 [Test worker] INFO  manager.MyListener - Found --> By.id: fuelConsumption
+21:26:08 68034 [Test worker] INFO  manager.MyListener - Start search element -->By.id: serialNumber
+21:26:08 68046 [Test worker] INFO  manager.MyListener - Found --> By.id: serialNumber
+21:26:08 68307 [Test worker] INFO  manager.MyListener - Start search element -->By.id: price
+21:26:08 68316 [Test worker] INFO  manager.MyListener - Found --> By.id: price
+21:26:09 68569 [Test worker] INFO  manager.MyListener - Start search element -->By.id: distance
+21:26:09 68580 [Test worker] INFO  manager.MyListener - Found --> By.id: distance
+21:26:09 68839 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@placeholder='Type feature']
+21:26:09 68852 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@placeholder='Type feature']
+21:26:09 69107 [Test worker] INFO  manager.MyListener - Start search element -->By.id: about
+21:26:09 69116 [Test worker] INFO  manager.MyListener - Found --> By.id: about
+21:26:09 69390 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Add feature']
+21:26:09 69401 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Add feature']
+21:26:10 70110 [Test worker] INFO  manager.MyListener - Start search element -->By.id: photos
+21:26:10 70122 [Test worker] INFO  manager.MyListener - Found --> By.id: photos
+21:26:12 72153 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Submit']
+21:26:12 72168 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Submit']
+21:26:14 74418 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.dialog-container
+21:26:14 74430 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.dialog-container
+21:26:15 74456 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.dialog-container h1
+21:26:15 74466 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.dialog-container h1
+21:26:15 74476 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Search cars']
+21:26:15 74485 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Search cars']
+21:26:15 74708 [Test worker] INFO  TestBase - End of method -->createNewCarDataProvider

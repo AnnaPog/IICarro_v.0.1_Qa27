@@ -1,0 +1,123 @@
+18:32:04 30797 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+18:32:11 37929 [Test worker] INFO  TestBase - Start method -->negatTypePeriodInPath2
+18:32:11 37953 [Test worker] INFO  TestBase - With param--->[]
+18:32:11 37965 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+18:32:11 38022 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+18:32:12 38638 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+18:32:12 39088 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+18:32:13 39825 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+18:32:13 39838 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+18:32:14 40670 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: .cdk-overlay-container
+18:32:14 40685 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: .cdk-overlay-container
+18:32:14 41040 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+18:32:14 41060 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+18:32:16 42606 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@href='/']
+18:32:16 42620 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@href='/']
+18:32:17 43785 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-container']
+18:32:17 43805 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-container']
+18:32:17 44065 [Test worker] INFO  TestBase - End of method -->negatTypePeriodInPath2
+18:32:17 44076 [Test worker] INFO  TestBase - Start method -->selectPeriodNotCerrentMonthsHW
+18:32:17 44083 [Test worker] INFO  TestBase - With param--->[]
+18:32:17 44093 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+18:32:17 44132 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+18:32:17 44486 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+18:32:18 44800 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+18:32:19 45545 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+18:32:19 45559 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+18:32:19 45969 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:19 45982 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:19 46261 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:19 46275 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:20 46554 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 10 ']
+18:32:20 46564 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 10 ']
+18:32:20 46832 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:20 46844 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:20 47110 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 10 ']
+18:32:20 47128 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 10 ']
+18:32:25 52414 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+18:32:25 52432 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+18:32:26 52907 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+18:32:26 52959 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+18:32:26 52962 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@href='/']
+18:32:26 53001 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@href='/']
+18:32:28 55047 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-container']
+18:32:28 55311 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-container']
+18:32:28 55351 [Test worker] INFO  TestBase - End of method -->selectPeriodNotCerrentMonthsHW
+18:32:28 55352 [Test worker] INFO  TestBase - Start method -->selectPeriodNotCurrentMonth
+18:32:28 55353 [Test worker] INFO  TestBase - With param--->[]
+18:32:28 55354 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+18:32:28 55367 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+18:32:29 55716 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+18:32:29 55986 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+18:32:30 56709 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+18:32:30 56719 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+18:32:30 57155 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:30 57167 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:30 57435 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:30 57451 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:31 57718 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:31 57735 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:31 57985 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 1 ']
+18:32:31 57997 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 1 ']
+18:32:31 58269 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:31 58284 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:32 58549 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@aria-label='Next month']
+18:32:32 58563 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@aria-label='Next month']
+18:32:32 58836 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 12 ']
+18:32:32 58847 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 12 ']
+18:32:32 59113 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+18:32:32 59130 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+18:32:32 59459 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+18:32:32 59473 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+18:32:32 59475 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@href='/']
+18:32:32 59496 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@href='/']
+18:32:33 60200 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-container']
+18:32:33 60215 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-container']
+18:32:33 60262 [Test worker] INFO  TestBase - End of method -->selectPeriodNotCurrentMonth
+18:32:33 60264 [Test worker] INFO  TestBase - Start method -->selectSerchPeriod2
+18:32:33 60265 [Test worker] INFO  TestBase - With param--->[]
+18:32:33 60266 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+18:32:33 60281 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+18:32:34 60685 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+18:32:34 60697 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+18:32:34 61426 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+18:32:34 61446 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+18:32:35 61833 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 29 ']
+18:32:35 61852 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 29 ']
+18:32:35 62132 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[text()=' 30 ']
+18:32:35 62142 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[text()=' 30 ']
+18:32:37 64407 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+18:32:37 64418 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+18:32:40 66795 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-results']
+18:32:40 66829 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-results']
+18:32:40 66831 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@href='/']
+18:32:40 66869 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@href='/']
+18:32:44 70798 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //div[@class='search-container']
+18:32:44 70825 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //div[@class='search-container']
+18:32:44 70870 [Test worker] INFO  TestBase - End of method -->selectSerchPeriod2
+18:32:44 70872 [Test worker] INFO  TestBase - Start method -->typeSearchPeriod1
+18:32:44 70872 [Test worker] INFO  TestBase - With param--->[]
+18:32:44 70873 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='city']
+18:32:44 70886 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='city']
+18:32:44 71216 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+18:32:44 71267 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+18:32:45 71988 [Test worker] INFO  manager.MyListener - Start search element -->By.id: dates
+18:32:45 72000 [Test worker] INFO  manager.MyListener - Found --> By.id: dates
+18:32:48 74696 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[@type='submit']
+18:32:48 74715 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[@type='submit']
+18:32:48 74800 [Test worker] INFO  manager.MyListener - We have a throwable Element <button type="submit"> is not clickable at point (207,409) because another element <span class="mat-button-wrapper"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:a4e6:7e4:df84:c2d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 856, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 95785c98-1e1c-cb43-bcdc-77373a912735
+18:32:48 75347 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--69.png
+18:32:48 75381 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[@href='/']
+18:32:48 75390 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[@href='/']
+18:32:48 75420 [Test worker] INFO  manager.MyListener - We have a throwable Element <a class="logo" href="/"> is not clickable at point (236,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:a4e6:7e4:df84:c2d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 856, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 95785c98-1e1c-cb43-bcdc-77373a912735
+18:32:49 76161 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--68.png

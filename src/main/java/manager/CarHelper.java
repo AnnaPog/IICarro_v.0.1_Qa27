@@ -109,4 +109,12 @@ public class CarHelper extends HelperBase{
     public boolean canNotPickDay() {
         return isElementPresent(By.xpath("//div[text()=\" You can't pick date before today \"]"));
     }
+
+    public void searchAnotherCar(){
+        wd.findElement(By.xpath("//button[text()='Search cars']")).click();
+    }
+
+    public void refresh() {
+        wd.navigate().refresh();
+    }
 }

@@ -21,9 +21,9 @@ public class SearchTest extends TestBase{
 //        //5/10/2021 - 5/12/2021
 //    }
 
-    @Test
+    @Test//(enabled = false)
     public void typeSearchPeriod1(){
-        app.search().fillSearchFormByType ("Haifa","5/20/2021","5/25/2021");
+        app.search().fillSearchFormByType ("Haifa","5/28/2021","5/30/2021");
         app.search().pause(2000);
         app.search().clickYallaBtn();
         Assert.assertTrue(app.search().isListOfCarAppeared());
@@ -41,9 +41,9 @@ public class SearchTest extends TestBase{
 //        logger.info("Test passed");
 //    }
 
-    @Test
+    @Test(invocationCount = 1)
     public void selectSerchPeriod2(){
-        app.search().fillSearchFormBySelectDate("Haifa", "5/17/2021", "5/25/2021");
+        app.search().fillSearchFormBySelectDate("Haifa", "5/29/2021", "5/30/2021");
         app.search().pause(2000);
         app.search().clickYallaBtn();
         app.search().pause(2000);
@@ -63,7 +63,7 @@ public class SearchTest extends TestBase{
 //
 //    }
 
-    @Test
+    @Test//(enabled = false)
     public void negatTypePeriodInPath2(){
         app.search().fillSearchByTypeNeg("Haifa","4/10/2021","4/17/2021");
         Assert.assertTrue(app.search().buttonYallaInactive());
@@ -90,8 +90,8 @@ public class SearchTest extends TestBase{
         Assert.assertTrue(app.search().isListOfCarAppeared());
     }
 
-//    @AfterMethod()
-//    public void postConditions(){
-//        app.search().backToHomePage();
-//    }
+    @AfterMethod()
+    public void postConditions(){
+        app.search().backToHomePage();
+    }
 }

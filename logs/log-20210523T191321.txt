@@ -1,0 +1,32 @@
+19:13:34 13788 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+19:13:36 16118 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+19:13:46 26164 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+19:13:46 26168 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+19:13:46 26195 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+19:13:46 26542 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+19:13:46 26556 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+19:13:47 27513 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+19:13:47 27607 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+19:13:49 28885 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+19:13:49 28900 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+19:13:52 32129 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+19:14:02 42206 [Test worker] INFO  manager.MyListener - We have a throwable Unable to locate element: //button[.='Ok']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:dcb1:cd40:e9b0:3d19%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 1233, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1943780d-5e21-9e4c-97f1-bbad05e0703d
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+19:14:02 42620 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--1194.png
+19:14:03 42648 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+19:14:13 52657 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+19:14:13 52658 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+19:14:13 52667 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+19:14:13 52893 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+19:14:13 52904 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+19:14:13 53235 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+19:14:13 53264 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+19:14:13 53589 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+19:14:13 53603 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+19:14:16 56329 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
