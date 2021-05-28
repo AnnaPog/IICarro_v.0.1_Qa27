@@ -1,0 +1,79 @@
+19:25:00 20756 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+19:25:02 23328 [Test worker] INFO  TestBase - Start method -->createNewCar
+19:25:02 23330 [Test worker] INFO  TestBase - With param--->[]
+19:25:02 23337 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+19:25:02 23451 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+19:25:02 23487 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+19:25:02 23508 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+19:25:05 26031 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+19:25:05 26056 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+19:25:05 26501 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+19:25:05 26517 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+19:25:06 26828 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+19:25:06 26842 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+19:25:07 28132 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+19:25:07 28149 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Ok']
+19:25:07 28558 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Let the car work ']
+19:25:07 28579 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Let the car work ']
+19:25:08 28991 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='pickUpPlace']
+19:25:08 29005 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='pickUpPlace']
+19:25:08 29338 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.pac-item
+19:25:09 29588 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.pac-item
+19:25:11 32336 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='make']
+19:25:11 32349 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='make']
+19:25:12 32635 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='model']
+19:25:12 32657 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='model']
+19:25:12 32959 [Test worker] INFO  manager.MyListener - Start search element -->By.id: year
+19:25:12 32995 [Test worker] INFO  manager.MyListener - Found --> By.id: year
+19:25:12 33319 [Test worker] INFO  manager.MyListener - Start search element -->By.id: engine
+19:25:12 33343 [Test worker] INFO  manager.MyListener - Found --> By.id: engine
+19:25:13 33641 [Test worker] INFO  manager.MyListener - Start search element -->By.id: fuel
+19:25:13 33657 [Test worker] INFO  manager.MyListener - Found --> By.id: fuel
+19:25:13 33732 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "Petrol"]
+19:25:13 33749 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "Petrol"]
+19:25:13 34017 [Test worker] INFO  manager.MyListener - Start search element -->By.id: gear
+19:25:13 34032 [Test worker] INFO  manager.MyListener - Found --> By.id: gear
+19:25:13 34072 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "AT"]
+19:25:13 34088 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "AT"]
+19:25:13 34332 [Test worker] INFO  manager.MyListener - Start search element -->By.id: wheelsDrive
+19:25:13 34350 [Test worker] INFO  manager.MyListener - Found --> By.id: wheelsDrive
+19:25:13 34401 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: .//option[normalize-space(.) = "RWD"]
+19:25:13 34425 [Test worker] INFO  manager.MyListener - Found --> By.xpath: .//option[normalize-space(.) = "RWD"]
+19:25:14 34689 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #doors
+19:25:14 34711 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #doors
+19:25:14 34985 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #seats
+19:25:14 34998 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #seats
+19:25:14 35267 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: #class
+19:25:14 35284 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: #class
+19:25:14 35573 [Test worker] INFO  manager.MyListener - Start search element -->By.id: fuelConsumption
+19:25:15 35586 [Test worker] INFO  manager.MyListener - Found --> By.id: fuelConsumption
+19:25:15 35864 [Test worker] INFO  manager.MyListener - Start search element -->By.id: serialNumber
+19:25:15 35880 [Test worker] INFO  manager.MyListener - Found --> By.id: serialNumber
+19:25:15 36172 [Test worker] INFO  manager.MyListener - Start search element -->By.id: price
+19:25:15 36185 [Test worker] INFO  manager.MyListener - Found --> By.id: price
+19:25:15 36468 [Test worker] INFO  manager.MyListener - Start search element -->By.id: distance
+19:25:15 36483 [Test worker] INFO  manager.MyListener - Found --> By.id: distance
+19:25:16 36749 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@placeholder='Type feature']
+19:25:16 36764 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@placeholder='Type feature']
+19:25:16 37021 [Test worker] INFO  manager.MyListener - Start search element -->By.id: about
+19:25:16 37034 [Test worker] INFO  manager.MyListener - Found --> By.id: about
+19:25:16 37518 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Add feature']
+19:25:16 37529 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Add feature']
+19:25:17 37755 [Test worker] INFO  manager.MyListener - Start search element -->By.id: photos
+19:25:17 37767 [Test worker] INFO  manager.MyListener - Found --> By.id: photos
+19:25:21 41940 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Submit']
+19:25:21 41953 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Submit']
+19:25:23 44305 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.dialog-container
+19:25:23 44316 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.dialog-container
+19:25:23 44398 [Test worker] INFO  manager.MyListener - Start search element -->By.cssSelector: div.dialog-container h1
+19:25:23 44407 [Test worker] INFO  manager.MyListener - Found --> By.cssSelector: div.dialog-container h1
+19:25:23 44454 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Search cars']
+19:25:33 54542 [Test worker] INFO  manager.MyListener - We have a throwable Unable to locate element: //button[text()='Search cars']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-Anna.local', ip: '2a06:5580:3:de00:d82d:93:bb34:9bdf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 4906, moz:profile: /var/folders/4h/ydz5wbkx0ws..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.4.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2cf123ea-3d32-4b41-b103-50ac4053f401
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+19:25:34 54697 [Test worker] INFO  manager.MyListener - Screen with throwable src/test/screenshots/screensot--503.png

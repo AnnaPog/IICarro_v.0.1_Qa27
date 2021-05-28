@@ -13,6 +13,8 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'org.testng:testng:7.1.0'
     implementation 'ch.qos.logback:logback-classic:1.2.3'
+
+
 }
 
 test {
@@ -20,10 +22,26 @@ test {
 }
 
 task reg (type: Test){
-    useTestNG{
+    useTestNG {
+        def suite = System.getProperty('suite', '')
+
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+        if (suite.equals('quick')) {
         suites 'src/test/resources/testng.xml'
+    }else if(suite.equals('smoke')){
+            suites 'src/test/resources/smoke.xml'
+        }else {
+            suites 'src/test/resources/testng.xml'
+        }
     }
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"
+    }
+
+    if(project.hasProperty('target')){
+        systemProperty 'target', "${target}"
     }
 }

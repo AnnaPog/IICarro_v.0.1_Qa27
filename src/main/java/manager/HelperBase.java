@@ -46,11 +46,23 @@ public class HelperBase {
 
     public void isLoginMethod() {
         click(By.xpath("//a[.=' Log in ']"));
-        type(By.xpath("//input[@id='email']"), "marsh@gmail.com");
-        type(By.id("password"), "Marsh1234$");
+        fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword("Marsh1234$"));
         click(By.xpath("//button[text()='Y’alla!']"));
         pause(1000);
         click(By.xpath("//button[.='Ok']"));
+    }
+
+    public void loggin(User user){
+        click(By.xpath("//a[.=' Log in ']"));
+        fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword("Marsh1234$"));
+        click(By.xpath("//button[text()='Y’alla!']"));
+        pause(1000);
+        click(By.xpath("//button[.='Ok']"));
+    }
+
+    public void fillLoginForm(User user) {
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
     }
 
     public void select(By locator, String option){

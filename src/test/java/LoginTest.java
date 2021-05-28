@@ -23,7 +23,7 @@ public class LoginTest extends TestBase{
     @Test
     public void loginTest(){
         app.user().openLoginForm();
-        app.user().fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword(""));
+        app.user().fillLoginForm(new User().withEmail("marsh@gmail.com").withPassword("Marsh1234$"));
         logger.info("loggin with: "+"marsh@gmail.com "+ "Marsh1234$");
         //Marsh1234$
         app.user().clickLoginButton();
