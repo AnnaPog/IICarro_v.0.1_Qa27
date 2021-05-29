@@ -1,0 +1,12 @@
+14:19:22 36594 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+14:19:32 46336 [Test worker] INFO  TestBase - Start method -->jsExecutorTest
+14:19:32 46338 [Test worker] INFO  TestBase - With param--->[]
+14:19:32 46397 [Test worker] INFO  TestBase - Type
+14:19:32 46704 [Test worker] INFO  TestBase - click ob button
+14:19:33 46740 [Test worker] INFO  TestBase - check box
+14:19:33 46785 [Test worker] INFO  TestBase - scroll page
+14:19:33 46809 [Test worker] INFO  TestBase - novigate to
+14:19:33 46843 [Test worker] INFO  TestBase - url
+14:19:33 46877 [Test worker] INFO  TestBase - refresh
+14:19:33 47049 [Test worker] INFO  TestBase - alert
+14:19:43 57067 [Test worker] INFO  TestBase - End of method -->jsExecutorTest

@@ -10,18 +10,16 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'org.testng:testng:7.1.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'ch.qos.logback:logback-classic:1.2.3'
-
-
 }
 
 test {
-    useTestNG();
+    useTestNG()
 }
+task reg(type: Test){
 
-task reg (type: Test){
     useTestNG {
         def suite = System.getProperty('suite', '')
 
@@ -30,18 +28,20 @@ task reg (type: Test){
             includeGroups groups
         }
         if (suite.equals('quick')) {
-        suites 'src/test/resources/testng.xml'
-    }else if(suite.equals('smoke')){
+            suites 'src/test/resources/quick.xml'
+        } else if (suite.equals('smoke')) {
             suites 'src/test/resources/smoke.xml'
-        }else {
+        } else {
             suites 'src/test/resources/testng.xml'
         }
-    }
-    if(project.hasProperty('browser')){
-        systemProperty 'browser', "${browser}"
-    }
 
-    if(project.hasProperty('target')){
-        systemProperty 'target', "${target}"
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser', "${browser}"
+        }
+
+        if(project.hasProperty('target')){
+            systemProperty 'target', "${target}"
+        }
+
     }
 }

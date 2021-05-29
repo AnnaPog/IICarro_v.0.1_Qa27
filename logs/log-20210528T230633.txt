@@ -1,0 +1,4 @@
+23:06:52 19734 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:06:54 22309 [Test worker] INFO  TestBase - Start method -->jsExecutorTest
+23:06:54 22309 [Test worker] INFO  TestBase - With param--->[]
+23:07:05 33026 [Test worker] INFO  TestBase - End of method -->jsExecutorTest

@@ -5,7 +5,7 @@ public class JScriptTest extends TestBase{
     @Test
     public void jsExecutorTest(){
         app.executor().typeTextInTextBox();
-        app.executor().clickOnButton();
+        app.executor().clickOnButton();;
         app.executor().checkBox();
         app.executor().scrollPage();
         app.executor().novigateTo();
