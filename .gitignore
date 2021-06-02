@@ -2,7 +2,7 @@
 #/build/
 .idea
 *.log
-*.png
+#*.png
 
 # Ignore Gradle GUI config
 gradle-app.setting
