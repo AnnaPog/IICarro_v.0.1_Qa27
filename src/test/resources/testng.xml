@@ -4,6 +4,9 @@
     <test name="Reg" >
         <classes>
             <class name="LoginTest" />
+            <class name="CreateNewCarTest" />
+            <class name="SearchTest" />
+            <class name="TestListenerTestsNG" />
         </classes>
     </test>
 

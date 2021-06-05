@@ -50,7 +50,7 @@ public class LoginTest extends TestBase{
     }
 
 
-    @Test(dataProvider = "dataFile", enabled = false)
+    @Test(dataProvider = "dataFile")
     public void loginTestFromFile(User user){
 
         app.user().openLoginForm();
@@ -73,7 +73,7 @@ public class LoginTest extends TestBase{
         return list.iterator();
     }
 
-    @Test(dataProvider = "validData", enabled = false)
+    @Test(dataProvider = "validData")
     public void loginTestDataProvider(String email, String password){
         app.user().openLoginForm();
         app.user().fillLoginForm(new User().withEmail(email).withPassword(password));
@@ -88,7 +88,7 @@ public class LoginTest extends TestBase{
         logger.info("Test passed");
     }
 
-    @Test(dataProvider = "dataFile", dataProviderClass = DataProviders.class, enabled = false)
+    @Test(dataProvider = "dataFile", dataProviderClass = DataProviders.class)
     public void loginTestFromFileFromClass(User user){
 
         app.user().openLoginForm();
