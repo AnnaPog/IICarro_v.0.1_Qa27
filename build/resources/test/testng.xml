@@ -4,6 +4,7 @@
     <test name="Reg" >
         <classes>
             <class name="LoginTest" />
+
         </classes>
     </test>
 
