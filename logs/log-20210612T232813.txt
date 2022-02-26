@@ -1,0 +1,20 @@
+23:28:19 5354 [Test worker] INFO  manager.MyListener - Start navigate to --> https://ilcarro.xyz/search
+23:28:21 7376 [Test worker] INFO  TestBase - Start method -->loginTest
+23:28:21 7378 [Test worker] INFO  TestBase - With param--->[]
+23:28:21 7386 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+23:28:31 17432 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+23:28:31 17439 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Log in ']
+23:28:31 17463 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Log in ']
+23:28:31 17795 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //input[@id='email']
+23:28:31 17813 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //input[@id='email']
+23:28:31 18129 [Test worker] INFO  manager.MyListener - Start search element -->By.id: password
+23:28:31 18139 [Test worker] INFO  manager.MyListener - Found --> By.id: password
+23:28:32 18416 [Test worker] INFO  TestBase - loggin with: marsh@gmail.com Marsh1234$
+23:28:32 18417 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[text()='Y’alla!']
+23:28:32 18429 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[text()='Y’alla!']
+23:28:34 20668 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //button[.='Ok']
+23:28:37 23826 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //button[.='Ok']
+23:28:37 24066 [Test worker] INFO  manager.MyListener - Start search element -->By.xpath: //a[.=' Logout ']
+23:28:37 24074 [Test worker] INFO  manager.MyListener - Found --> By.xpath: //a[.=' Logout ']
+23:28:37 24079 [Test worker] INFO  TestBase - Test passed
+23:28:37 24086 [Test worker] INFO  TestBase - End of method -->loginTest
